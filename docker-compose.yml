@@ -6,10 +6,10 @@ services:
       context: .
       dockerfile: Dockerfile
     image: my-grpc-app:latest
-    # Request all GPUs from the host
+    # grant GPU access to the container
     gpus: all
     ports:
       - "50051:50051"
     environment:
-      # Ensure the container sees all GPUs
+      # make sure CUDA sees all GPUs
       - NVIDIA_VISIBLE_DEVICES=all
