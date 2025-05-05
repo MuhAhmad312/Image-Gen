@@ -16,7 +16,7 @@ WSL 2 integration enabled (Windows users)
 
 Clone the repository:
 
-git clone https://github.com/YourUser/your-repo.git
+git clone https://github.com/MuhAhmad312/Image-Gen.git
 cd your-repo
 
 Prepare the model files:
