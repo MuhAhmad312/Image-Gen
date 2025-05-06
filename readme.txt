@@ -83,3 +83,16 @@ docker volume prune -f
 there is no license we have no idea how this works if you get this
 to work koodos you have done something that we were not able 
 to do especially while using docker
+
+--------------------------
+
+
+how to really run this:
+
+first run this command after cominig into this directory
+   --chmod +x run_model.sh run_grpc.sh
+then run the bash filesin order first download the model onto your device using
+  --./run_model.sh # you can skip this if you already have the model in your directory
+ten run 
+  --./run_grpc.sh 
+
